@@ -6,11 +6,11 @@
 
 **Contribution category:** Key verification (verification).
 
-**Repository:** REPO_URL
+**Repository:** https://github.com/wanglin1111111/apex-math-2026
 
-**Verification map:** REPO_URL/report/verification-map.html
+**Verification map:** https://github.com/wanglin1111111/apex-math-2026/report/verification-map.html
 
-**Artifact manifest:** REPO_URL/report/SHA256SUMS.txt
+**Artifact manifest:** https://github.com/wanglin1111111/apex-math-2026/report/SHA256SUMS.txt
 
 ## 摘要（中文）
 
