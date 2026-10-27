@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import argparse
 import csv
 import json
 import pathlib
@@ -235,4 +236,8 @@ def main(n_configs: int = 1000, max_rank_checks: int = 60) -> None:
 
 
 if __name__ == "__main__":
-    main()
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--n-configs", type=int, default=1000)
+    ap.add_argument("--max-rank", type=int, default=60)
+    args = ap.parse_args()
+    main(n_configs=args.n_configs, max_rank_checks=args.max_rank)

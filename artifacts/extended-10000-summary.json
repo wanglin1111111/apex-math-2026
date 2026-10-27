@@ -1,0 +1,15 @@
+{
+  "note": "Extended (10x) re-run of the Experiment-2 search as supplementary evidence. The submitted text's headline figures remain the 1,000-configuration / 8,000-check run (see search-summary.json); this file documents a stronger pass done for the record.",
+  "command": "python code/run_search.py --n-configs 10000 --max-rank 600",
+  "configs_requested": 10000,
+  "window_checks": 80000,
+  "violations": 0,
+  "case_A": 24256,
+  "case_B": 55744,
+  "caseb_rz_pairs": 17376,
+  "rank_checks": 600,
+  "rank_ok": 600,
+  "rank_fail": 0,
+  "result": "NO VIOLATIONS; 600/600 rank checks pass. Consistent with the 1,000-configuration result.",
+  "generated_on": "2026-10-27"
+}
