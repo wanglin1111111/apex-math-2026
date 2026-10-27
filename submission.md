@@ -8,7 +8,7 @@
 
 **Repository:** https://github.com/wanglin1111111/apex-math-2026
 
-**Verification map:** https://github.com/wanglin1111111/apex-math-2026/report/verification-map.html
+**Verification map:** https://wanglin1111111.github.io/apex-math-2026/
 
 **Artifact manifest:** https://github.com/wanglin1111111/apex-math-2026/report/SHA256SUMS.txt
 
