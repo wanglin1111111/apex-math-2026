@@ -1,0 +1,3249 @@
+[
+ {
+  "config_id": 2,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -2
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "constants": [
+   1,
+   2
+  ],
+  "windows": [
+   [
+    -4,
+    1
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "values": [
+   [
+    2
+   ],
+   [
+    3
+   ]
+  ],
+  "window": "4x4",
+  "size": 16,
+  "Ptheta": 41,
+  "RZ_size": 1,
+  "dim_us": 16,
+  "expected_dim": 16,
+  "H2": 17,
+  "expected_H2": 17,
+  "d": [
+   0,
+   1
+  ],
+  "q": [
+   2,
+   -1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 2,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -2
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "constants": [
+   1,
+   2
+  ],
+  "windows": [
+   [
+    -4,
+    1
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "values": [
+   [
+    2
+   ],
+   [
+    3
+   ]
+  ],
+  "window": "hex17",
+  "size": 17,
+  "Ptheta": 41,
+  "RZ_size": 2,
+  "dim_us": 16,
+  "expected_dim": 16,
+  "H2": 18,
+  "expected_H2": 18,
+  "d": [
+   0,
+   1
+  ],
+  "q": [
+   2,
+   -1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 5,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "constants": [
+   1,
+   1
+  ],
+  "windows": [
+   [
+    0,
+    1
+   ],
+   [
+    -1,
+    1
+   ]
+  ],
+  "values": [
+   [
+    2
+   ],
+   [
+    2
+   ]
+  ],
+  "window": "4x4",
+  "size": 16,
+  "Ptheta": 41,
+  "RZ_size": 2,
+  "dim_us": 15,
+  "expected_dim": 15,
+  "H2": 17,
+  "expected_H2": 17,
+  "d": [
+   0,
+   -1
+  ],
+  "q": [
+   2,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 5,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "constants": [
+   1,
+   1
+  ],
+  "windows": [
+   [
+    0,
+    1
+   ],
+   [
+    -1,
+    1
+   ]
+  ],
+  "values": [
+   [
+    2
+   ],
+   [
+    2
+   ]
+  ],
+  "window": "5x3",
+  "size": 15,
+  "Ptheta": 38,
+  "RZ_size": 2,
+  "dim_us": 14,
+  "expected_dim": 14,
+  "H2": 16,
+  "expected_H2": 16,
+  "d": [
+   0,
+   -1
+  ],
+  "q": [
+   2,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 5,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "constants": [
+   1,
+   1
+  ],
+  "windows": [
+   [
+    0,
+    1
+   ],
+   [
+    -1,
+    1
+   ]
+  ],
+  "values": [
+   [
+    2
+   ],
+   [
+    2
+   ]
+  ],
+  "window": "4x3",
+  "size": 12,
+  "Ptheta": 31,
+  "RZ_size": 1,
+  "dim_us": 12,
+  "expected_dim": 12,
+  "H2": 13,
+  "expected_H2": 13,
+  "d": [
+   0,
+   -1
+  ],
+  "q": [
+   2,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 5,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "constants": [
+   1,
+   1
+  ],
+  "windows": [
+   [
+    0,
+    1
+   ],
+   [
+    -1,
+    1
+   ]
+  ],
+  "values": [
+   [
+    2
+   ],
+   [
+    2
+   ]
+  ],
+  "window": "tri15",
+  "size": 15,
+  "Ptheta": 38,
+  "RZ_size": 1,
+  "dim_us": 15,
+  "expected_dim": 15,
+  "H2": 16,
+  "expected_H2": 16,
+  "d": [
+   0,
+   -1
+  ],
+  "q": [
+   2,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 5,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "constants": [
+   1,
+   1
+  ],
+  "windows": [
+   [
+    0,
+    1
+   ],
+   [
+    -1,
+    1
+   ]
+  ],
+  "values": [
+   [
+    2
+   ],
+   [
+    2
+   ]
+  ],
+  "window": "hex17",
+  "size": 17,
+  "Ptheta": 45,
+  "RZ_size": 2,
+  "dim_us": 16,
+  "expected_dim": 16,
+  "H2": 18,
+  "expected_H2": 18,
+  "d": [
+   0,
+   -1
+  ],
+  "q": [
+   2,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 5,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "constants": [
+   1,
+   1
+  ],
+  "windows": [
+   [
+    0,
+    1
+   ],
+   [
+    -1,
+    1
+   ]
+  ],
+  "values": [
+   [
+    2
+   ],
+   [
+    2
+   ]
+  ],
+  "window": "rhomb13",
+  "size": 13,
+  "Ptheta": 30,
+  "RZ_size": 2,
+  "dim_us": 12,
+  "expected_dim": 12,
+  "H2": 14,
+  "expected_H2": 14,
+  "d": [
+   0,
+   -1
+  ],
+  "q": [
+   2,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 5,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "constants": [
+   1,
+   1
+  ],
+  "windows": [
+   [
+    0,
+    1
+   ],
+   [
+    -1,
+    1
+   ]
+  ],
+  "values": [
+   [
+    2
+   ],
+   [
+    2
+   ]
+  ],
+  "window": "para12",
+  "size": 12,
+  "Ptheta": 31,
+  "RZ_size": 1,
+  "dim_us": 12,
+  "expected_dim": 12,
+  "H2": 13,
+  "expected_H2": 13,
+  "d": [
+   0,
+   -1
+  ],
+  "q": [
+   2,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 6,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    3
+   ]
+  ],
+  "constants": [
+   1,
+   0
+  ],
+  "windows": [
+   [
+    5,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "values": [
+   [
+    2
+   ],
+   [
+    1
+   ]
+  ],
+  "window": "hex17",
+  "size": 17,
+  "Ptheta": 43,
+  "RZ_size": 1,
+  "dim_us": 17,
+  "expected_dim": 17,
+  "H2": 18,
+  "expected_H2": 18,
+  "d": [
+   0,
+   -2
+  ],
+  "q": [
+   1,
+   2
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 6,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    3
+   ]
+  ],
+  "constants": [
+   1,
+   0
+  ],
+  "windows": [
+   [
+    5,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "values": [
+   [
+    2
+   ],
+   [
+    1
+   ]
+  ],
+  "window": "rhomb13",
+  "size": 13,
+  "Ptheta": 31,
+  "RZ_size": 1,
+  "dim_us": 13,
+  "expected_dim": 13,
+  "H2": 14,
+  "expected_H2": 14,
+  "d": [
+   0,
+   -2
+  ],
+  "q": [
+   1,
+   2
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 11,
+  "p": 3,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "constants": [
+   0,
+   1
+  ],
+  "windows": [
+   [
+    4,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "values": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "window": "3x4",
+  "size": 12,
+  "Ptheta": 31,
+  "RZ_size": 2,
+  "dim_us": 11,
+  "expected_dim": 11,
+  "H2": 13,
+  "expected_H2": 13,
+  "d": [
+   1,
+   0
+  ],
+  "q": [
+   0,
+   0
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 11,
+  "p": 3,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "constants": [
+   0,
+   1
+  ],
+  "windows": [
+   [
+    4,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "values": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "window": "4x4",
+  "size": 16,
+  "Ptheta": 40,
+  "RZ_size": 4,
+  "dim_us": 13,
+  "expected_dim": 13,
+  "H2": 17,
+  "expected_H2": 17,
+  "d": [
+   1,
+   0
+  ],
+  "q": [
+   0,
+   0
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 11,
+  "p": 3,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "constants": [
+   0,
+   1
+  ],
+  "windows": [
+   [
+    4,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "values": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "window": "5x3",
+  "size": 15,
+  "Ptheta": 39,
+  "RZ_size": 3,
+  "dim_us": 13,
+  "expected_dim": 13,
+  "H2": 16,
+  "expected_H2": 16,
+  "d": [
+   1,
+   0
+  ],
+  "q": [
+   0,
+   0
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 11,
+  "p": 3,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "constants": [
+   0,
+   1
+  ],
+  "windows": [
+   [
+    4,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "values": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "window": "4x3",
+  "size": 12,
+  "Ptheta": 31,
+  "RZ_size": 2,
+  "dim_us": 11,
+  "expected_dim": 11,
+  "H2": 13,
+  "expected_H2": 13,
+  "d": [
+   1,
+   0
+  ],
+  "q": [
+   0,
+   0
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 11,
+  "p": 3,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "constants": [
+   0,
+   1
+  ],
+  "windows": [
+   [
+    4,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "values": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "window": "tri15",
+  "size": 15,
+  "Ptheta": 37,
+  "RZ_size": 3,
+  "dim_us": 13,
+  "expected_dim": 13,
+  "H2": 16,
+  "expected_H2": 16,
+  "d": [
+   1,
+   0
+  ],
+  "q": [
+   0,
+   0
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 11,
+  "p": 3,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "constants": [
+   0,
+   1
+  ],
+  "windows": [
+   [
+    4,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "values": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "window": "hex17",
+  "size": 17,
+  "Ptheta": 39,
+  "RZ_size": 5,
+  "dim_us": 13,
+  "expected_dim": 13,
+  "H2": 18,
+  "expected_H2": 18,
+  "d": [
+   1,
+   0
+  ],
+  "q": [
+   0,
+   0
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 11,
+  "p": 3,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "constants": [
+   0,
+   1
+  ],
+  "windows": [
+   [
+    4,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "values": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "window": "rhomb13",
+  "size": 13,
+  "Ptheta": 23,
+  "RZ_size": 5,
+  "dim_us": 9,
+  "expected_dim": 9,
+  "H2": 14,
+  "expected_H2": 14,
+  "d": [
+   1,
+   0
+  ],
+  "q": [
+   0,
+   0
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 11,
+  "p": 3,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "constants": [
+   0,
+   1
+  ],
+  "windows": [
+   [
+    4,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "values": [
+   [
+    1
+   ],
+   [
+    2
+   ]
+  ],
+  "window": "para12",
+  "size": 12,
+  "Ptheta": 29,
+  "RZ_size": 2,
+  "dim_us": 11,
+  "expected_dim": 11,
+  "H2": 13,
+  "expected_H2": 13,
+  "d": [
+   1,
+   0
+  ],
+  "q": [
+   0,
+   0
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 12,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    0,
+    1
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "constants": [
+   2,
+   2
+  ],
+  "windows": [
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "values": [
+   [
+    3
+   ],
+   [
+    3
+   ]
+  ],
+  "window": "3x4",
+  "size": 12,
+  "Ptheta": 26,
+  "RZ_size": 2,
+  "dim_us": 11,
+  "expected_dim": 11,
+  "H2": 13,
+  "expected_H2": 13,
+  "d": [
+   1,
+   0
+  ],
+  "q": [
+   0,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 12,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    0,
+    1
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "constants": [
+   2,
+   2
+  ],
+  "windows": [
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "values": [
+   [
+    3
+   ],
+   [
+    3
+   ]
+  ],
+  "window": "4x4",
+  "size": 16,
+  "Ptheta": 35,
+  "RZ_size": 4,
+  "dim_us": 13,
+  "expected_dim": 13,
+  "H2": 17,
+  "expected_H2": 17,
+  "d": [
+   1,
+   0
+  ],
+  "q": [
+   0,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 12,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    0,
+    1
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "constants": [
+   2,
+   2
+  ],
+  "windows": [
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "values": [
+   [
+    3
+   ],
+   [
+    3
+   ]
+  ],
+  "window": "5x3",
+  "size": 15,
+  "Ptheta": 37,
+  "RZ_size": 3,
+  "dim_us": 13,
+  "expected_dim": 13,
+  "H2": 16,
+  "expected_H2": 16,
+  "d": [
+   1,
+   0
+  ],
+  "q": [
+   0,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 12,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    0,
+    1
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "constants": [
+   2,
+   2
+  ],
+  "windows": [
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "values": [
+   [
+    3
+   ],
+   [
+    3
+   ]
+  ],
+  "window": "4x3",
+  "size": 12,
+  "Ptheta": 29,
+  "RZ_size": 2,
+  "dim_us": 11,
+  "expected_dim": 11,
+  "H2": 13,
+  "expected_H2": 13,
+  "d": [
+   1,
+   0
+  ],
+  "q": [
+   0,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 12,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    0,
+    1
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "constants": [
+   2,
+   2
+  ],
+  "windows": [
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "values": [
+   [
+    3
+   ],
+   [
+    3
+   ]
+  ],
+  "window": "tri15",
+  "size": 15,
+  "Ptheta": 46,
+  "RZ_size": 1,
+  "dim_us": 15,
+  "expected_dim": 15,
+  "H2": 16,
+  "expected_H2": 16,
+  "d": [
+   1,
+   0
+  ],
+  "q": [
+   0,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 12,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    0,
+    1
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "constants": [
+   2,
+   2
+  ],
+  "windows": [
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "values": [
+   [
+    3
+   ],
+   [
+    3
+   ]
+  ],
+  "window": "hex17",
+  "size": 17,
+  "Ptheta": 45,
+  "RZ_size": 3,
+  "dim_us": 15,
+  "expected_dim": 15,
+  "H2": 18,
+  "expected_H2": 18,
+  "d": [
+   1,
+   0
+  ],
+  "q": [
+   0,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 12,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    0,
+    1
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "constants": [
+   2,
+   2
+  ],
+  "windows": [
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "values": [
+   [
+    3
+   ],
+   [
+    3
+   ]
+  ],
+  "window": "rhomb13",
+  "size": 13,
+  "Ptheta": 37,
+  "RZ_size": 1,
+  "dim_us": 13,
+  "expected_dim": 13,
+  "H2": 14,
+  "expected_H2": 14,
+  "d": [
+   1,
+   0
+  ],
+  "q": [
+   0,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 12,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    0,
+    1
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "constants": [
+   2,
+   2
+  ],
+  "windows": [
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "values": [
+   [
+    3
+   ],
+   [
+    3
+   ]
+  ],
+  "window": "para12",
+  "size": 12,
+  "Ptheta": 31,
+  "RZ_size": 2,
+  "dim_us": 11,
+  "expected_dim": 11,
+  "H2": 13,
+  "expected_H2": 13,
+  "d": [
+   1,
+   0
+  ],
+  "q": [
+   0,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 15,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    2
+   ]
+  ],
+  "constants": [
+   2,
+   4
+  ],
+  "windows": [
+   [
+    0,
+    1
+   ],
+   [
+    -5,
+    1
+   ]
+  ],
+  "values": [
+   [
+    3
+   ],
+   [
+    0
+   ]
+  ],
+  "window": "3x4",
+  "size": 12,
+  "Ptheta": 31,
+  "RZ_size": 1,
+  "dim_us": 12,
+  "expected_dim": 12,
+  "H2": 13,
+  "expected_H2": 13,
+  "d": [
+   0,
+   -1
+  ],
+  "q": [
+   1,
+   2
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 15,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    2
+   ]
+  ],
+  "constants": [
+   2,
+   4
+  ],
+  "windows": [
+   [
+    0,
+    1
+   ],
+   [
+    -5,
+    1
+   ]
+  ],
+  "values": [
+   [
+    3
+   ],
+   [
+    0
+   ]
+  ],
+  "window": "4x4",
+  "size": 16,
+  "Ptheta": 41,
+  "RZ_size": 2,
+  "dim_us": 15,
+  "expected_dim": 15,
+  "H2": 17,
+  "expected_H2": 17,
+  "d": [
+   0,
+   -1
+  ],
+  "q": [
+   1,
+   2
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 15,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    2
+   ]
+  ],
+  "constants": [
+   2,
+   4
+  ],
+  "windows": [
+   [
+    0,
+    1
+   ],
+   [
+    -5,
+    1
+   ]
+  ],
+  "values": [
+   [
+    3
+   ],
+   [
+    0
+   ]
+  ],
+  "window": "tri15",
+  "size": 15,
+  "Ptheta": 38,
+  "RZ_size": 1,
+  "dim_us": 15,
+  "expected_dim": 15,
+  "H2": 16,
+  "expected_H2": 16,
+  "d": [
+   0,
+   -1
+  ],
+  "q": [
+   1,
+   2
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 15,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    2
+   ]
+  ],
+  "constants": [
+   2,
+   4
+  ],
+  "windows": [
+   [
+    0,
+    1
+   ],
+   [
+    -5,
+    1
+   ]
+  ],
+  "values": [
+   [
+    3
+   ],
+   [
+    0
+   ]
+  ],
+  "window": "hex17",
+  "size": 17,
+  "Ptheta": 38,
+  "RZ_size": 4,
+  "dim_us": 14,
+  "expected_dim": 14,
+  "H2": 18,
+  "expected_H2": 18,
+  "d": [
+   0,
+   -1
+  ],
+  "q": [
+   1,
+   2
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 15,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    2
+   ]
+  ],
+  "constants": [
+   2,
+   4
+  ],
+  "windows": [
+   [
+    0,
+    1
+   ],
+   [
+    -5,
+    1
+   ]
+  ],
+  "values": [
+   [
+    3
+   ],
+   [
+    0
+   ]
+  ],
+  "window": "rhomb13",
+  "size": 13,
+  "Ptheta": 30,
+  "RZ_size": 2,
+  "dim_us": 12,
+  "expected_dim": 12,
+  "H2": 14,
+  "expected_H2": 14,
+  "d": [
+   0,
+   -1
+  ],
+  "q": [
+   1,
+   2
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 17,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    0,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "constants": [
+   4,
+   2
+  ],
+  "windows": [
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "values": [
+   [
+    0
+   ],
+   [
+    3
+   ]
+  ],
+  "window": "4x4",
+  "size": 16,
+  "Ptheta": 35,
+  "RZ_size": 2,
+  "dim_us": 15,
+  "expected_dim": 15,
+  "H2": 17,
+  "expected_H2": 17,
+  "d": [
+   2,
+   0
+  ],
+  "q": [
+   0,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 17,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    0,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "constants": [
+   4,
+   2
+  ],
+  "windows": [
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "values": [
+   [
+    0
+   ],
+   [
+    3
+   ]
+  ],
+  "window": "5x3",
+  "size": 15,
+  "Ptheta": 35,
+  "RZ_size": 2,
+  "dim_us": 14,
+  "expected_dim": 14,
+  "H2": 16,
+  "expected_H2": 16,
+  "d": [
+   2,
+   0
+  ],
+  "q": [
+   0,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 17,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    0,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "constants": [
+   4,
+   2
+  ],
+  "windows": [
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "values": [
+   [
+    0
+   ],
+   [
+    3
+   ]
+  ],
+  "window": "4x3",
+  "size": 12,
+  "Ptheta": 28,
+  "RZ_size": 1,
+  "dim_us": 12,
+  "expected_dim": 12,
+  "H2": 13,
+  "expected_H2": 13,
+  "d": [
+   2,
+   0
+  ],
+  "q": [
+   0,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 17,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    0,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "constants": [
+   4,
+   2
+  ],
+  "windows": [
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "values": [
+   [
+    0
+   ],
+   [
+    3
+   ]
+  ],
+  "window": "para12",
+  "size": 12,
+  "Ptheta": 31,
+  "RZ_size": 1,
+  "dim_us": 12,
+  "expected_dim": 12,
+  "H2": 13,
+  "expected_H2": 13,
+  "d": [
+   2,
+   0
+  ],
+  "q": [
+   0,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 19,
+  "p": 2,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    3
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "constants": [
+   1,
+   0
+  ],
+  "windows": [
+   [
+    2,
+    1
+   ],
+   [
+    -2,
+    2
+   ]
+  ],
+  "values": [
+   [
+    0
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "window": "hex17",
+  "size": 17,
+  "Ptheta": 65,
+  "RZ_size": 1,
+  "dim_us": 17,
+  "expected_dim": 17,
+  "H2": 18,
+  "expected_H2": 18,
+  "d": [
+   -1,
+   -2
+  ],
+  "q": [
+   2,
+   4
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 21,
+  "p": 2,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    -1
+   ]
+  ],
+  "constants": [
+   1,
+   1
+  ],
+  "windows": [
+   [
+    -5,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "values": [
+   [
+    0
+   ],
+   [
+    0
+   ]
+  ],
+  "window": "4x4",
+  "size": 16,
+  "Ptheta": 41,
+  "RZ_size": 1,
+  "dim_us": 16,
+  "expected_dim": 16,
+  "H2": 17,
+  "expected_H2": 17,
+  "d": [
+   0,
+   2
+  ],
+  "q": [
+   2,
+   -1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 21,
+  "p": 2,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    -1
+   ]
+  ],
+  "constants": [
+   1,
+   1
+  ],
+  "windows": [
+   [
+    -5,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "values": [
+   [
+    0
+   ],
+   [
+    0
+   ]
+  ],
+  "window": "hex17",
+  "size": 17,
+  "Ptheta": 41,
+  "RZ_size": 2,
+  "dim_us": 16,
+  "expected_dim": 16,
+  "H2": 18,
+  "expected_H2": 18,
+  "d": [
+   0,
+   2
+  ],
+  "q": [
+   2,
+   -1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 22,
+  "p": 2,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "constants": [
+   1,
+   1
+  ],
+  "windows": [
+   [
+    -3,
+    1
+   ],
+   [
+    -2,
+    1
+   ]
+  ],
+  "values": [
+   [
+    0
+   ],
+   [
+    0
+   ]
+  ],
+  "window": "5x3",
+  "size": 15,
+  "Ptheta": 55,
+  "RZ_size": 1,
+  "dim_us": 15,
+  "expected_dim": 15,
+  "H2": 16,
+  "expected_H2": 16,
+  "d": [
+   -2,
+   -1
+  ],
+  "q": [
+   2,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 22,
+  "p": 2,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "constants": [
+   1,
+   1
+  ],
+  "windows": [
+   [
+    -3,
+    1
+   ],
+   [
+    -2,
+    1
+   ]
+  ],
+  "values": [
+   [
+    0
+   ],
+   [
+    0
+   ]
+  ],
+  "window": "para12",
+  "size": 12,
+  "Ptheta": 29,
+  "RZ_size": 2,
+  "dim_us": 11,
+  "expected_dim": 11,
+  "H2": 13,
+  "expected_H2": 13,
+  "d": [
+   -2,
+   -1
+  ],
+  "q": [
+   2,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 23,
+  "p": 2,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "constants": [
+   0,
+   1
+  ],
+  "windows": [
+   [
+    -2,
+    1
+   ],
+   [
+    3,
+    3
+   ]
+  ],
+  "values": [
+   [
+    1
+   ],
+   [
+    1,
+    1,
+    0
+   ]
+  ],
+  "window": "5x3",
+  "size": 15,
+  "Ptheta": 38,
+  "RZ_size": 1,
+  "dim_us": 15,
+  "expected_dim": 15,
+  "H2": 16,
+  "expected_H2": 16,
+  "d": [
+   -1,
+   0
+  ],
+  "q": [
+   4,
+   0
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 23,
+  "p": 2,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "constants": [
+   0,
+   1
+  ],
+  "windows": [
+   [
+    -2,
+    1
+   ],
+   [
+    3,
+    3
+   ]
+  ],
+  "values": [
+   [
+    1
+   ],
+   [
+    1,
+    1,
+    0
+   ]
+  ],
+  "window": "hex17",
+  "size": 17,
+  "Ptheta": 47,
+  "RZ_size": 1,
+  "dim_us": 17,
+  "expected_dim": 17,
+  "H2": 18,
+  "expected_H2": 18,
+  "d": [
+   -1,
+   0
+  ],
+  "q": [
+   4,
+   0
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 23,
+  "p": 2,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "constants": [
+   0,
+   1
+  ],
+  "windows": [
+   [
+    -2,
+    1
+   ],
+   [
+    3,
+    3
+   ]
+  ],
+  "values": [
+   [
+    1
+   ],
+   [
+    1,
+    1,
+    0
+   ]
+  ],
+  "window": "rhomb13",
+  "size": 13,
+  "Ptheta": 30,
+  "RZ_size": 1,
+  "dim_us": 13,
+  "expected_dim": 13,
+  "H2": 14,
+  "expected_H2": 14,
+  "d": [
+   -1,
+   0
+  ],
+  "q": [
+   4,
+   0
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 25,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    0,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "constants": [
+   4,
+   0
+  ],
+  "windows": [
+   [
+    4,
+    1
+   ],
+   [
+    -3,
+    1
+   ]
+  ],
+  "values": [
+   [
+    0
+   ],
+   [
+    1
+   ]
+  ],
+  "window": "4x4",
+  "size": 16,
+  "Ptheta": 35,
+  "RZ_size": 2,
+  "dim_us": 15,
+  "expected_dim": 15,
+  "H2": 17,
+  "expected_H2": 17,
+  "d": [
+   2,
+   0
+  ],
+  "q": [
+   0,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 25,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    0,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "constants": [
+   4,
+   0
+  ],
+  "windows": [
+   [
+    4,
+    1
+   ],
+   [
+    -3,
+    1
+   ]
+  ],
+  "values": [
+   [
+    0
+   ],
+   [
+    1
+   ]
+  ],
+  "window": "5x3",
+  "size": 15,
+  "Ptheta": 35,
+  "RZ_size": 2,
+  "dim_us": 14,
+  "expected_dim": 14,
+  "H2": 16,
+  "expected_H2": 16,
+  "d": [
+   2,
+   0
+  ],
+  "q": [
+   0,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 25,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    0,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "constants": [
+   4,
+   0
+  ],
+  "windows": [
+   [
+    4,
+    1
+   ],
+   [
+    -3,
+    1
+   ]
+  ],
+  "values": [
+   [
+    0
+   ],
+   [
+    1
+   ]
+  ],
+  "window": "4x3",
+  "size": 12,
+  "Ptheta": 28,
+  "RZ_size": 1,
+  "dim_us": 12,
+  "expected_dim": 12,
+  "H2": 13,
+  "expected_H2": 13,
+  "d": [
+   2,
+   0
+  ],
+  "q": [
+   0,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 25,
+  "p": 5,
+  "m": 2,
+  "directions": [
+   [
+    0,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "constants": [
+   4,
+   0
+  ],
+  "windows": [
+   [
+    4,
+    1
+   ],
+   [
+    -3,
+    1
+   ]
+  ],
+  "values": [
+   [
+    0
+   ],
+   [
+    1
+   ]
+  ],
+  "window": "para12",
+  "size": 12,
+  "Ptheta": 31,
+  "RZ_size": 1,
+  "dim_us": 12,
+  "expected_dim": 12,
+  "H2": 13,
+  "expected_H2": 13,
+  "d": [
+   2,
+   0
+  ],
+  "q": [
+   0,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 26,
+  "p": 3,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -3
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "constants": [
+   1,
+   2
+  ],
+  "windows": [
+   [
+    0,
+    1
+   ],
+   [
+    -5,
+    1
+   ]
+  ],
+  "values": [
+   [
+    2
+   ],
+   [
+    0
+   ]
+  ],
+  "window": "hex17",
+  "size": 17,
+  "Ptheta": 44,
+  "RZ_size": 1,
+  "dim_us": 17,
+  "expected_dim": 17,
+  "H2": 18,
+  "expected_H2": 18,
+  "d": [
+   -1,
+   0
+  ],
+  "q": [
+   2,
+   -2
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 26,
+  "p": 3,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -3
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "constants": [
+   1,
+   2
+  ],
+  "windows": [
+   [
+    0,
+    1
+   ],
+   [
+    -5,
+    1
+   ]
+  ],
+  "values": [
+   [
+    2
+   ],
+   [
+    0
+   ]
+  ],
+  "window": "rhomb13",
+  "size": 13,
+  "Ptheta": 30,
+  "RZ_size": 1,
+  "dim_us": 13,
+  "expected_dim": 13,
+  "H2": 14,
+  "expected_H2": 14,
+  "d": [
+   -1,
+   0
+  ],
+  "q": [
+   2,
+   -2
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 27,
+  "p": 3,
+  "m": 2,
+  "directions": [
+   [
+    0,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "constants": [
+   1,
+   1
+  ],
+  "windows": [
+   [
+    5,
+    1
+   ],
+   [
+    -3,
+    1
+   ]
+  ],
+  "values": [
+   [
+    2
+   ],
+   [
+    2
+   ]
+  ],
+  "window": "4x4",
+  "size": 16,
+  "Ptheta": 35,
+  "RZ_size": 2,
+  "dim_us": 15,
+  "expected_dim": 15,
+  "H2": 17,
+  "expected_H2": 17,
+  "d": [
+   2,
+   0
+  ],
+  "q": [
+   0,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 27,
+  "p": 3,
+  "m": 2,
+  "directions": [
+   [
+    0,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "constants": [
+   1,
+   1
+  ],
+  "windows": [
+   [
+    5,
+    1
+   ],
+   [
+    -3,
+    1
+   ]
+  ],
+  "values": [
+   [
+    2
+   ],
+   [
+    2
+   ]
+  ],
+  "window": "5x3",
+  "size": 15,
+  "Ptheta": 35,
+  "RZ_size": 2,
+  "dim_us": 14,
+  "expected_dim": 14,
+  "H2": 16,
+  "expected_H2": 16,
+  "d": [
+   2,
+   0
+  ],
+  "q": [
+   0,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 27,
+  "p": 3,
+  "m": 2,
+  "directions": [
+   [
+    0,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "constants": [
+   1,
+   1
+  ],
+  "windows": [
+   [
+    5,
+    1
+   ],
+   [
+    -3,
+    1
+   ]
+  ],
+  "values": [
+   [
+    2
+   ],
+   [
+    2
+   ]
+  ],
+  "window": "4x3",
+  "size": 12,
+  "Ptheta": 28,
+  "RZ_size": 1,
+  "dim_us": 12,
+  "expected_dim": 12,
+  "H2": 13,
+  "expected_H2": 13,
+  "d": [
+   2,
+   0
+  ],
+  "q": [
+   0,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 27,
+  "p": 3,
+  "m": 2,
+  "directions": [
+   [
+    0,
+    1
+   ],
+   [
+    3,
+    1
+   ]
+  ],
+  "constants": [
+   1,
+   1
+  ],
+  "windows": [
+   [
+    5,
+    1
+   ],
+   [
+    -3,
+    1
+   ]
+  ],
+  "values": [
+   [
+    2
+   ],
+   [
+    2
+   ]
+  ],
+  "window": "para12",
+  "size": 12,
+  "Ptheta": 31,
+  "RZ_size": 1,
+  "dim_us": 12,
+  "expected_dim": 12,
+  "H2": 13,
+  "expected_H2": 13,
+  "d": [
+   2,
+   0
+  ],
+  "q": [
+   0,
+   1
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 30,
+  "p": 3,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "constants": [
+   2,
+   2
+  ],
+  "windows": [
+   [
+    -2,
+    1
+   ],
+   [
+    -2,
+    1
+   ]
+  ],
+  "values": [
+   [
+    0
+   ],
+   [
+    0
+   ]
+  ],
+  "window": "4x4",
+  "size": 16,
+  "Ptheta": 52,
+  "RZ_size": 1,
+  "dim_us": 16,
+  "expected_dim": 16,
+  "H2": 17,
+  "expected_H2": 17,
+  "d": [
+   0,
+   -1
+  ],
+  "q": [
+   1,
+   2
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 32,
+  "p": 3,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    3
+   ]
+  ],
+  "constants": [
+   0,
+   2
+  ],
+  "windows": [
+   [
+    3,
+    1
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "values": [
+   [
+    1
+   ],
+   [
+    0
+   ]
+  ],
+  "window": "hex17",
+  "size": 17,
+  "Ptheta": 65,
+  "RZ_size": 1,
+  "dim_us": 17,
+  "expected_dim": 17,
+  "H2": 18,
+  "expected_H2": 18,
+  "d": [
+   -1,
+   -2
+  ],
+  "q": [
+   2,
+   4
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 35,
+  "p": 3,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "constants": [
+   2,
+   2
+  ],
+  "windows": [
+   [
+    0,
+    1
+   ],
+   [
+    -1,
+    1
+   ]
+  ],
+  "values": [
+   [
+    0
+   ],
+   [
+    0
+   ]
+  ],
+  "window": "3x4",
+  "size": 12,
+  "Ptheta": 31,
+  "RZ_size": 2,
+  "dim_us": 11,
+  "expected_dim": 11,
+  "H2": 13,
+  "expected_H2": 13,
+  "d": [
+   1,
+   0
+  ],
+  "q": [
+   0,
+   0
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 35,
+  "p": 3,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "constants": [
+   2,
+   2
+  ],
+  "windows": [
+   [
+    0,
+    1
+   ],
+   [
+    -1,
+    1
+   ]
+  ],
+  "values": [
+   [
+    0
+   ],
+   [
+    0
+   ]
+  ],
+  "window": "4x4",
+  "size": 16,
+  "Ptheta": 40,
+  "RZ_size": 4,
+  "dim_us": 13,
+  "expected_dim": 13,
+  "H2": 17,
+  "expected_H2": 17,
+  "d": [
+   1,
+   0
+  ],
+  "q": [
+   0,
+   0
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 35,
+  "p": 3,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "constants": [
+   2,
+   2
+  ],
+  "windows": [
+   [
+    0,
+    1
+   ],
+   [
+    -1,
+    1
+   ]
+  ],
+  "values": [
+   [
+    0
+   ],
+   [
+    0
+   ]
+  ],
+  "window": "5x3",
+  "size": 15,
+  "Ptheta": 39,
+  "RZ_size": 3,
+  "dim_us": 13,
+  "expected_dim": 13,
+  "H2": 16,
+  "expected_H2": 16,
+  "d": [
+   1,
+   0
+  ],
+  "q": [
+   0,
+   0
+  ],
+  "rank_ok": true
+ },
+ {
+  "config_id": 35,
+  "p": 3,
+  "m": 2,
+  "directions": [
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "constants": [
+   2,
+   2
+  ],
+  "windows": [
+   [
+    0,
+    1
+   ],
+   [
+    -1,
+    1
+   ]
+  ],
+  "values": [
+   [
+    0
+   ],
+   [
+    0
+   ]
+  ],
+  "window": "4x3",
+  "size": 12,
+  "Ptheta": 31,
+  "RZ_size": 2,
+  "dim_us": 11,
+  "expected_dim": 11,
+  "H2": 13,
+  "expected_H2": 13,
+  "d": [
+   1,
+   0
+  ],
+  "q": [
+   0,
+   0
+  ],
+  "rank_ok": true
+ }
+]

@@ -1,0 +1,68 @@
+{
+ "configs_requested": 1000,
+ "configs_generated": 1000,
+ "window_checks": 8000,
+ "violations": 0,
+ "case_A": 2344,
+ "case_B": 5656,
+ "caseb_rz_pairs": 1695,
+ "rank_checks": 60,
+ "rank_ok": 60,
+ "rank_fail": 0,
+ "windows": {
+  "3x4": 12,
+  "4x4": 16,
+  "5x3": 15,
+  "4x3": 12,
+  "tri15": 15,
+  "hex17": 17,
+  "rhomb13": 13,
+  "para12": 12
+ },
+ "directions": [
+  [
+   1,
+   0
+  ],
+  [
+   0,
+   1
+  ],
+  [
+   1,
+   1
+  ],
+  [
+   1,
+   -1
+  ],
+  [
+   1,
+   2
+  ],
+  [
+   1,
+   -2
+  ],
+  [
+   2,
+   1
+  ],
+  [
+   2,
+   -1
+  ],
+  [
+   1,
+   3
+  ],
+  [
+   1,
+   -3
+  ],
+  [
+   3,
+   1
+  ]
+ ]
+}

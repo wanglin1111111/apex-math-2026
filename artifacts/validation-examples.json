@@ -1,0 +1,50 @@
+[
+ {
+  "window": "4x4",
+  "size": 16,
+  "Ptheta": 35,
+  "RZ_size": 4,
+  "dim_us": 13,
+  "H2": 17,
+  "d": [
+   0,
+   -1
+  ],
+  "q": [
+   1,
+   2
+  ],
+  "expected": {
+   "size": 16,
+   "Ptheta": 35,
+   "RZ_size": 4,
+   "dim_us": 13,
+   "H2": 17
+  },
+  "ok": true
+ },
+ {
+  "window": "hex17",
+  "size": 17,
+  "Ptheta": 37,
+  "RZ_size": 5,
+  "dim_us": 13,
+  "H2": 18,
+  "d": [
+   0,
+   -1
+  ],
+  "q": [
+   1,
+   2
+  ],
+  "expected": {
+   "size": 17,
+   "Ptheta": 37,
+   "RZ_size": 5,
+   "dim_us": 13,
+   "H2": 18
+  },
+  "ok": true
+ }
+]

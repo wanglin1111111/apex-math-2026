@@ -1,0 +1,33 @@
+{
+ "summary": {
+  "radius": 80,
+  "equality_cross_checks": {
+   "checks": 80,
+   "failures": 0
+  },
+  "containment_cross_checks": {
+   "checks": 240,
+   "failures": 0
+  },
+  "total_checks": 320,
+  "result": "PASS"
+ },
+ "equality": {
+  "mode": "equal",
+  "radius": 80,
+  "configs": 10,
+  "windows": 8,
+  "checks": 80,
+  "failures": 0,
+  "failure_detail": []
+ },
+ "containment": {
+  "mode": "contain",
+  "radius": 80,
+  "configs": 30,
+  "windows": 8,
+  "checks": 240,
+  "failures": 0,
+  "failure_detail": []
+ }
+}

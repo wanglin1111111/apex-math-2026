@@ -1,0 +1,17 @@
+claim,value,artifact,path
+configs_generated,1000,artifacts/search-summary.json,configs_generated
+window_checks,8000,artifacts/search-summary.json,window_checks
+violations,0,artifacts/search-summary.json,violations
+caseb_rz_pairs,1695,artifacts/search-summary.json,caseb_rz_pairs
+rank_checks,60,artifacts/search-summary.json,rank_checks
+rank_ok,60,artifacts/search-summary.json,rank_ok
+rank_fail,0,artifacts/search-summary.json,rank_fail
+P_4x4,35,artifacts/validation-examples.json,[0].Ptheta
+RZ_4x4,4,artifacts/validation-examples.json,[0].RZ_size
+dim_4x4,13,artifacts/validation-examples.json,[0].dim_us
+H2_4x4,17,artifacts/validation-examples.json,[0].H2
+P_hex17,37,artifacts/validation-examples.json,[1].Ptheta
+RZ_hex17,5,artifacts/validation-examples.json,[1].RZ_size
+dim_hex17,13,artifacts/validation-examples.json,[1].dim_us
+H2_hex17,18,artifacts/validation-examples.json,[1].H2
+unit_tests,8,report/report.md,text:Ran 8 tests

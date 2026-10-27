@@ -1,0 +1,213 @@
+Appendix C. Numerical verification
+The scripts are star.py (construction, enumeration and all checks), verify.py and
+verify2.py (the two randomised experiments), and lemma31.py (the counterexample of §C.3).
+They depend only on numpy and are supplied as ancillary files together with their output for the
+stated seeds. The reported experimental values are read from that output; the supplementary
+exact checks described below are included with the source material.
+The latter include
+
+30
+APEX INTELLIGENCE
+check_case_support.py, check_periods_and_spectra.py, and check_encodings.py; their
+locations and saved results are listed in the accompanying BUILD.md.
+C.1. Method.
+• Configurations. Each component is specified by a primitive direction vi, a tangential
+period ki, an arbitrary value table on the transition strip [ℓi, ri], and left and right tails
+Li, Ri given, in the basis (vi, ui) of §0.3, as doubly periodic tables in (t mod a, s mod ki).
+Axioms (S1) and (S3) hold by construction. Axiom (S2) is decided exactly: Fi is doubly
+periodic if and only if it coincides with the global extension of its left tail (a doubly
+periodic function vanishing on a half-plane vanishes identically), and that coincidence is
+tested on the strip and on one full period beyond it. With M the least common multiple
+of all the kj and of all the tail period indices, the lattice Γ of §0.3 contains MZ2, and the
+program uses Hi = Mkivi; by Remark 1.4 this choice, which need not be the minimal
+one, does not affect the Case A/Case B decision, and it does not affect Λi either, since
+refining the period only adds zero Fourier coefficients.
+• Pattern counts. The S-patterns are enumerated at all anchors of the square box of radius
+R = 90 and again of radius R = 180. The entries labelled Pθ(S) below are these observed
+counts, hence lower bounds for the global complexity. The two counts agreed on every
+reported window, but this agreement alone does not certify exhaustiveness: that would
+require covering the strip crossings and all periodic phase classes outside them, with the
+window offsets included.
+• Deciding the case. DIa is computed on the box of radius 40 from the formal expansion
+(0.1). A non-zero value certifies Case A; an all-zero result only suggests Case B unless
+the box covers the support. For the reported configurations, the case assignments were
+additionally confirmed on boxes containing all pairwise intersections of the strips
+ℓi −max
+C⊆[m] πi(HC) ≤πi(z) ≤ri −min
+C⊆[m] πi(HC).
+The strip argument of Lemma 1.1, with W = {0}, places the entire support of every DIa
+inside this union.
+• Spectrum and zonotope. The fields Ξ±
+i and Gσ,ϵ
+i
+are built as in §2.1; for each difference
+field di,σ,ϵ,a a length-κi DFT is taken row by row over all rows within 2M + 2 of the
+strip (outside the strip the rows repeat with period M). Frequencies with coefficient of
+modulus above 10−9 give numerical estimates of Λi, di and Z. For all 570 components in
+the two experiments, the frequency sets were also checked exactly by reducing the integer
+row polynomials modulo the appropriate cyclotomic polynomials; every set agreed with
+the DFT output. The set RZ(S) is decided by testing whether all subset sums of the
+divi, translated by r, lie in Conv(S).
+• Ranks. The encoding w is a random injection into {1, . . . , 100}. Injectivity alone does
+not imply the spectrum-preservation condition of Lemma 2.2; for the reported encodings
+that condition was checked separately by exact cyclotomic remainders and held for all
+570 components. The rank of the |L| × (|S| + 1) matrix
+ 1, w(γ(s))s∈S
+ 
+γ∈L is computed
+over Fq with q = 231 −1. The entries labelled dim US below are these modular ranks
+of the sampled pattern matrices; they are lower bounds for the rational ranks on the
+full pattern set. Meeting the lower bound in Lemma 2.5 is therefore sufficient to verify
+that inequality for the sampled configuration. In Case B with RZ(S) ̸= ∅the matrix
+is extended by the columns Φr(γ) = w(γ(r + q)) w(γ(r + q + d)), r ∈RZ(S), of §7, and
+the rank H2(S) of the extended matrix is compared with dim US + |RZ(S)| (Lemma 7.2)
+and with |S| + 1 (Theorem 7.3).
+
+STAR CONFIGURATIONS AND THE CONVEX NIVAT CONJECTURE
+31
+• Witness and background. In Case B, for every non-zero d ∈(Z −Z) ∩Z2 the function
+J(d, ·) is computed on the box of radius 40 and the non-zero instances are collected
+(Proposition 5.3); the first of them, with a q as in Corollary 6.2, is the pair (d, q) used
+for the Φr. The polynomial A is built with complex coefficients from the Λi, and Aeθ is
+checked to be MZ2-periodic on the box (Proposition 3.3).
+C.2. Results. Experiment 1 (script verify.py, seed 1).
+We generated 84 random star
+configurations with p ∈{2, 3, 5}, m ∈{2, 3}, directions drawn without repetition from the 8
+primitive vectors (1, 0), (0, 1), (1, ±1), (1, ±2), (2, ±1), ki ∈{1, 2, 3}, tail periods of 1 or 2 rows,
+strip widths 1 to 3 with ℓi ∈{−1, 0, 1}, all tables uniformly random over Fp subject to (S2);
+component 1 has independently drawn left and right tails, the other components have Li = Ri.
+Windows: the 2 × 3, 3 × 3, 2 × 4 and 4 × 2 rectangles, the 6-point triangle with vertices
+(0, 0), (2, 0), (0, 2), the 8-point hexagon with vertices (1, 0), (2, 0), (3, 1), (2, 2), (1, 2), (0, 1), the
+5-point rhombus with vertices (0, 0), (1, 1), (2, 0), (1, −1), and the 3-point segment {0, 1, 2} × {0}.
+Result: 81 configurations in Case A and 3 in Case B; Pθ(S) ≥|S| + 1 held on all 8 windows of all
+84 configurations. The three Case-B instances have di ∈{3, 6}, so Z is larger than every window
+and RZ(S) = ∅throughout; on them dim US was exactly |S| + 1 on every window, with 192, 310
+and 28 non-zero witnesses d found respectively, and the periodicity residual of Aeθ on the tested
+box was at most 2 · 10−15. These are instances of Remark 2.6; Experiment 2 targets RZ(S) ̸= ∅.
+Experiment 2 (script verify2.py, seed 7). We generated 157 configurations of the form
+P
+i wi ◦πi, so ki = 1 and constant tails: each wi : Z →Fp takes a constant value ci outside
+a window of length 1 to 4 and arbitrary values inside it, with Li = Ri = ci; p ∈{2, 3, 5},
+m = 2 with probability 0.7 and m = 3 with probability 0.3, directions drawn from the 11
+primitive vectors (1, 0), (0, 1), (1, ±1), (1, ±2), (2, ±1), (1, ±3), (3, 1). Windows: the 3 × 4, 4 × 4,
+5 × 3 and 4 × 3 rectangles, the 15-point triangle with vertices (0, 0), (4, 0), (0, 4), the 17-point
+hexagon with vertices (1, 0), (3, 0), (4, 2), (3, 4), (1, 4), (0, 2), the 13-point rhombus with vertices
+(0, 0), (2, 2), (4, 0), (2, −2), and the 12-point parallelogram with vertices (0, 0), (3, 0), (5, 2), (2, 2).
+Result: 128 in Case A and 29 in Case B, all with di = 1; Pθ(S) ≥|S| + 1 held on all 8 windows
+of all 157 configurations, and every check listed in §C.1 passed on every Case-B instance. Of the
+29 Case-B configurations, 14 have RZ(S) ̸= ∅for at least one window, giving 35 configuration–
+window pairs with RZ(S) ̸= ∅and |RZ(S)| ∈{1, 2, 3, 4, 5}; all 35 have m = 2 (no Case-B instance
+with m = 3 and RZ(S) ̸= ∅was produced by this generator). Representative rows of the output:
+p directions
+S
+|S| Pθ(S)
+di
+|RZ(S)|
+dim US
+|S| + 1 −|RZ(S)|
+H2(S)
+d
+3
+(1, 2), (1, 0)
+4 × 4
+16
+35
+(1, 1)
+4
+13
+13
+17
+(−1, −1)
+3
+(1, 2), (1, 0)
+hexagon
+17
+37
+(1, 1)
+5
+13
+13
+18
+(−1, −1)
+3
+(1, 2), (1, −2) hexagon
+17
+45
+(1, 1)
+3
+15
+15
+18
+(−1, −1)
+5
+(1, −3), (1, 0) 4 × 4
+16
+37
+(1, 1)
+2
+15
+15
+17
+(−1, 1)
+2
+(2, −1), (1, 2) hexagon
+17
+41
+(1, 1)
+2
+16
+16
+18
+(−2, 0)
+5
+(2, 1), (1, 2)
+4 × 4
+16
+54
+(1, 1)
+1
+16
+16
+17
+(−2, −2)
+On all 35 pairs with RZ(S) ̸= ∅, the sampled base matrix had modular rank |S| + 1 −|RZ(S)|,
+and the extended matrix had modular rank H2(S) = |S| + 1. Thus their rank difference was
+exactly |RZ(S)|, matching the dimension comparison in §7. These numerical equalities alone do
+not identify the full rational space of affine relations. On the 116 two-component configurations
+of Experiment 2 the criterion of Observation C.1 below agreed with the computed case in all 116
+instances, and the Case-B direction pairs had | det(v1, v2)| ∈{2, 3, 4, 5, 6, 7, 10}.
+Observation C.1 (A criterion for Case B when m = 2). Suppose m = 2 and both components
+satisfy Li = Ri; write δi = Fi −Li for the deviation field, supported in strip i. Replace Hi by a
+
+32
+APEX INTELLIGENCE
+sufficiently large multiple, which by Remark 1.4 does not change the Case A/Case B decision, and
+expand the four-point template {z, z + H1, z + H2, z + H1 + H2} at an anchor z: δ1 is constant
+along the H1-pairs and δ2 along the H2-pairs, so Deθ(z) = 0 if and only if at least one of the two
+pairs of constants agrees. Hence Case B holds if and only if supp δ1 ∩supp δ2 = ∅, that is, no
+point is deviated by both components at once. In particular, when ki = 1, the tails are constant
+and equal, and | det(v1, v2)| = 1, one is always in Case A: the map (π1, π2): Z2 →Z2 is then
+surjective and the two deviation sets must meet. Under these additional hypotheses, Case B
+occurs only for | det | ≥2. The sample of Experiment 2 was generated at random and then sorted
+by the numerical test; the criterion explains why Case B appeared only on direction pairs with
+| det | ≥2.
+C.3. A counterexample to the generalisation of Lemma 3.1. (lemma31.py.) Take p = 2,
+m = 3, v1 = (1, 0), v2 = (0, −1), v3 = (1, −1). Tails: L1 = 0 and R1 = ⊮[x even]; L2 = L3 = 0
+and R2 = R3 = ⊮[3 | x]; the transition strip of each component is constant 1, of width 1. Here
+π2(v1) = π3(v1) = 1 > 0, so B+
+1 = R2 + R3 ≡0 and B−
+1 = L2 + L3 = 0, and the program
+computes Λ1 = {±1} (with κ1 = 12 and frequencies {0, 6}), so that A1(T v1) = T 2v1 −1.
+• For the pairs of realised sectors adjacent along the rays ±v1, namely (R1, R2, R3) with
+(L1, R2, R3) and (R1, L2, L3) with (L1, L2, L3): the difference after applying A1(T v1) is
+0, up to a floating-point error of 1.3 · 10−16, for both colours.
+• For the mixed choice (R1, R2, L3) against (L1, R2, L3) — here B = R2 + L3 = ⊮[3 | x],
+and the sign vector (+, +, −) corresponds to the cone {y > 0, x > 0, x + y < 0} = ∅,
+which is not realised: the difference after applying A1(T v1) has maximum absolute value
+2.
+By hand: along the x-direction, ∆1 = ⊮[R1 + B = 1] −⊮[L1 + B = 1] takes the values
+(−1, 0, 1, 0, 1, 0) for x mod 6 = 0, . . . , 5, whereas its translate by x 7→x + 2 is (1, 0, 1, 0, −1, 0).
+The two differ, so ∆1 is not killed by T 2v1 −1: its spectrum contains cube roots of unity, and
+those are not in Λ1. This is why §3 can only assert that Ae is constant across the realised sectors,
+where B = Bσ
+i — and that is exactly, and only, what Lemma 3.2 needs.
